@@ -1,2 +1,0 @@
-class Movieuploadtable < ApplicationRecord
-end

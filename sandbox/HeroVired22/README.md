@@ -1,2 +1,0 @@
-# HeroVired22
-HeroVired
