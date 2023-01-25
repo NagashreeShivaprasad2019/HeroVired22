@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: Border-Box;
+}
+
+body {
+    background-color: #c2daed;
+    font-family: Arial;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10%;
+    padding: 2%;
+    text-align: left;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.nobull {
+    list-style-type: none;
+}
+
+label {
+    display: inline-block;
+    text-align: left;
+    width: 10%;
+}
+
+input {
+    width: 25%;
+}
+
+select {
+    width: 25%;
+}
+
+option {
+    width: 35%;
+}

@@ -1,0 +1,76 @@
+.box {
+  display: flex;
+  align-items: left;
+
+
+}
+
+.box>div {
+  margin-left: 15px;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.input>div {
+  margin-left: 15px;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.Hcenter>div {
+
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  height: 75%;
+  border-radius: 50px 50px 50px;
+  justify-content: center;
+  background-position: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: ar;
+}
+
+.Hsearch>div {
+  width: 100%;
+  padding: 10px;
+  border: 0;
+  height: 100%;
+  color: #006FCB;
+
+}
+
+.HsearchInput>div {
+  width: 248px;
+  height: 36px;
+  left: 29px;
+  top: 16px;
+  color: #006FCB ;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #ddd;
+}

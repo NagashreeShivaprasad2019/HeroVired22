@@ -1,0 +1,14 @@
+.subheader2 {
+    display: flex;
+    align-items: center;
+    
+
+}
+
+.subheader2>div {
+    margin-left: 15px;
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
