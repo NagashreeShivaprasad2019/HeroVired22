@@ -1,0 +1,2 @@
+class Movietab < ApplicationRecord
+end

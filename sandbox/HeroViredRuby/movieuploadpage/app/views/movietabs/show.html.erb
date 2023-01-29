@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @movietab %>
+
+<div>
+  <%= link_to "Edit this movietab", edit_movietab_path(@movietab) %> |
+  <%= link_to "Back to movietabs", movietabs_path %>
+
+  <%= button_to "Destroy this movietab", @movietab, method: :delete %>
+</div>
